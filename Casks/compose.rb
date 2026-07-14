@@ -1,9 +1,9 @@
 cask "compose" do
   arch arm: "aarch64", intel: "universal"
 
-  version "0.0.1-alpha.10"
-  sha256 arm:   "8beccffe5f718a6b275ad076021e7c15248022e97f41c442a75e2c47ffeea9b6",
-         intel: "3016aba3c94f3c328e60624d6374f2a968f20debaed7e86d0a26f292e96ca86f"
+  version "0.0.1-alpha.11"
+  sha256 arm:   "e13a44bea994312ee9445c173f47f2ce18be27603943d0224088ed6583176329",
+         intel: "c7f6800b0527c1056770d4495504f106cefb9d2c92e9cede85a6b2a3f7520fda"
 
   url "https://github.com/getlatentic/compose/releases/download/v#{version}/Compose_#{version}_#{arch}.dmg"
   name "Compose"
